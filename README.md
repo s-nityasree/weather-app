@@ -63,7 +63,7 @@ MIT License
 
 ---
 
-Made with ❤️ by \[Your Name]
+Made with ❤️ by S Nitya Sree
 
 ```
 
