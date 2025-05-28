@@ -1,12 +1,75 @@
-# React + Vite
+Here's a complete `README.md` file for your **React Weather App**, including setup and usage instructions:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+````markdown
+# 🌦️ Weather App
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A simple React-based weather application to check the current weather by city name.  
+It uses the OpenWeatherMap API to display temperature, humidity, and weather conditions.
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Search weather by city name
+- Displays temperature, weather description, and humidity
+- Dynamic weather icons
+- Error handling with toast notifications
+
+## 📦 Installation
+
+1. **Clone the repository**  
+   ```bash
+   git clone https://github.com/s-nityasree/weather-app.git
+   cd weather-app
+````
+
+2. **Install dependencies**
+
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server**
+
+   ```bash
+   npm run dev
+   ```
+
+   > If you’re using Create React App, replace with:
+   >
+   > ```bash
+   > npm start
+   > ```
+
+## 🔑 API Key Setup
+
+* This project uses the [OpenWeatherMap API](https://openweathermap.org/api).
+* Replace the API key in your `handleSearch` function with your own key:
+
+```javascript
+const URL = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=YOUR_API_KEY`;
+```
+
+## 🛠 Tech Stack
+
+* React
+* Axios
+* React Toastify
+* CSS (custom styles)
+
+## 📄 License
+
+MIT License
+
+---
+
+Made with ❤️ by \[Your Name]
+
+```
+
+---
+
+Let me know if you'd like:
+- A section for screenshots or a demo link
+- Deployment instructions (e.g., for Vercel or Netlify)
+```
